@@ -46,5 +46,5 @@ testem.log
 Thumbs.db
 
 # Ignore custom
+browserslist
 package-lock.json
-.browserslist
