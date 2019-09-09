@@ -9,15 +9,14 @@ import {
   MatButtonModule,
   MatFormFieldModule,
   MatInputModule,
+  MatCardModule,
+  MatDividerModule
 } from '@angular/material';
 
 // Components
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule,
     FormsModule,
@@ -28,7 +27,12 @@ import { AppComponent } from './app.component';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCardModule,
+    MatDividerModule
     // Components
+  ],
+  declarations: [
+    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
