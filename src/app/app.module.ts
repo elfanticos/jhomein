@@ -5,16 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Angular material
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {
-  MatButtonModule,
-  MatFormFieldModule,
-  MatInputModule,
-  MatCardModule,
-  MatDividerModule
-} from '@angular/material';
-
 // Components
 import { AppComponent } from './app.component';
+// Modules
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   imports: [
@@ -24,12 +18,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     // Angular material
     BrowserAnimationsModule,
-    MatButtonModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatCardModule,
-    MatDividerModule
-    // Components
+    // modules
+    CoreModule
   ],
   declarations: [
     AppComponent

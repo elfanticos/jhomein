@@ -1,5 +1,5 @@
-<div class="contenedor">
-  <header class="header">
+<div class="container">
+  <!-- <header class="header">
     <nav class="navbar">
       <div class="logo">
         LOGOTIPO
@@ -11,14 +11,16 @@
         <a href="">SOBRE MÍ</a>
       </div>
       <mat-form-field>
-        <mat-label>Buscar libro</mat-label>
+        <mat-label>Buscar contenido</mat-label>
         <input matInput placeholder="">
       </mat-form-field>
     </nav>
-  </header>
-  <div class="contenido">
+  </header> -->
+  <app-navbar></app-navbar>
+  <div class="content">
+    
     <h1>Últimos artículos</h1>
-    <mat-card>
+    <!-- <mat-card>
       <mat-card-content>
         <div class="article">
           <ng-container *ngFor="let i of [1,2,3,4,5,6,7,8,9,10]">
@@ -44,9 +46,9 @@
           </ng-container>
         </div>
       </mat-card-content>
-    </mat-card>
+    </mat-card> -->
   </div>
-  <aside class="sidebar">
+  <!-- <aside class="sidebar">
     <mat-card>
       <mat-card-subtitle>
         <h3>Top de los 5 artículos mas buscados</h3>
@@ -64,12 +66,15 @@
         </div>
       </mat-card-content>
     </mat-card>
-  </aside>
-  <div class="widget">
-    <h3>WIDGET</h3>
-  </div>
-  <footer class="footer">
-    <h3>FOOTER</h3>
-  </footer>
+  </aside> -->
+  <app-sidebar></app-sidebar>
+  <!-- <footer class="footer">
+      <div class="flex">
+          <h3>FOOTER</h3>
+          <span class="spacer"></span>
+          <strong>Desarrollado por Jmeza @2019</strong>
+        </div>
+  </footer> -->
+  <app-footer></app-footer>
 </div>
 <!-- <router-outlet></router-outlet> -->

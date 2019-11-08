@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ButtonAComponent } from './button-a.component';
+import { ArticleLastComponent } from './article-last.component';
 
-describe('ButtonAComponent', () => {
-  let component: ButtonAComponent;
-  let fixture: ComponentFixture<ButtonAComponent>;
+describe('ArticleLastComponent', () => {
+  let component: ArticleLastComponent;
+  let fixture: ComponentFixture<ArticleLastComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ButtonAComponent ]
+      declarations: [ ArticleLastComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ButtonAComponent);
+    fixture = TestBed.createComponent(ArticleLastComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,14 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
 
+import {
+  MatButtonModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatCardModule,
+  MatDividerModule
+} from '@angular/material';
 
-
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
-  declarations: [],
+  declarations: [SidebarComponent, NavbarComponent, FooterComponent],
   imports: [
     CommonModule,
-    HttpClientModule
-  ]
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatCardModule,
+    MatDividerModule
+  ],
+  exports: [SidebarComponent, NavbarComponent, FooterComponent]
 })
 export class CoreModule { }

@@ -11,8 +11,42 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+
+	grid-template-areas: "header    header    header"
+						 "contenido contenido sidebar"
+						 "contenido contenido sidebar"
+						 "footer    footer    footer";
+	app-navbar {
+		grid-area: header;
+	}
+	.content {
+		background-color: peru;
+		grid-area: contenido;
+
+	}
+	app-sidebar {
+		grid-area: sidebar;
+	}
+	app-footer {
+		grid-area: footer;
+	}
+}
+
+
 .spacer {
 	flex: 1 1 auto;
+}
+
+.flex {
+	display: flex;
 }
 
 .flex-center-v {

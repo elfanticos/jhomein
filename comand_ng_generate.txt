@@ -1,0 +1,10 @@
+ng g m shared --routing=false
+ng g m core --routing=false
+
+ng g c shared/components/sidebar --module=shared --export=true
+ng g c shared/components/navbar --module=shared --export=true
+ng g c shared/components/footer --module=shared --export=true
+
+ng g m modules/home --module=app --routing=true --route=app
+
+ng g c modules/home/views/article-last --module=home
