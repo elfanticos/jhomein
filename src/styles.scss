@@ -63,7 +63,7 @@ body {
 	align-items: center;
 }
 
-.flex-center{
+.flex-center {
 	display: flex;
     justify-content: center;
 }
@@ -77,4 +77,12 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+	height: 100%;
 }

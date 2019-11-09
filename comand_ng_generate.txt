@@ -8,3 +8,6 @@ ng g c shared/components/footer --module=shared --export=true
 ng g m modules/home --module=app --routing=true --route=app
 
 ng g c modules/home/views/article-last --module=home
+ng g c modules/home/views/courses --module=home
+ng g c modules/home/views/articles --module=home
+ng g c modules/home/views/about --module=home
