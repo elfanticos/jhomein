@@ -1,0 +1,27 @@
+.article {
+    overflow: auto;
+    height: 630px;
+    .article-content {
+        display: flex;
+        flex-direction: row;
+        div {
+            margin: 5px;
+        }
+        .article-detail {
+            display: flex;
+            flex-direction: column;
+        }
+        .article-image {
+            background-color: pink;
+            border-radius: 5px;
+            width: 380px;
+            height: 150px;
+        }
+    }
+}
+
+.divider {
+    border: 0.5px solid gray;
+    width: 100%;
+    margin: 0 30px;
+}

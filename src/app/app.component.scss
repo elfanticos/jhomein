@@ -157,19 +157,3 @@
 //     width: 100%;
 //     margin: 0 30px;
 // }
-
-
-.contenedor {
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(4, auto);
-
-	grid-template-areas: "header    header    header"
-						 "contenido contenido sidebar"
-						 "widget    widget    widget"
-						 "footer    footer    footer";
-}

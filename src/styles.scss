@@ -28,7 +28,6 @@ body {
 		grid-area: header;
 	}
 	.content {
-		background-color: peru;
 		grid-area: contenido;
 
 	}
@@ -37,6 +36,16 @@ body {
 	}
 	app-footer {
 		grid-area: footer;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		grid-template-areas: "header    header    header"
+						     "contenido contenido contenido"
+						     "sidebar   sidebar   sidebar"
+						     "widget    widget    widget"
+						     "footer    footer    footer";
 	}
 }
 
