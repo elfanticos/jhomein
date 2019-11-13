@@ -2,12 +2,12 @@
   <nav class="navbar">
     <div class="logo">LOGOTIPO</div>
     <span class="spacer"></span>
-    <div class="nav-menu">
-      <a [routerLink]="['/']">INICIO</a>
-      <a [routerLink]="['/courses']">CURSOS</a>
-      <a [routerLink]="['/articles']">ARTICULOS</a>
-      <a [routerLink]="['/about']">SOBRE MÍ</a>
-    </div>
+    <ul class="nav-menu">
+      <li><a routerLink="/" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}">INICIO</a></li>
+      <li><a routerLink="/courses" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}">CURSOS</a></li>
+      <li><a routerLink="/articles" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}">ARTICULOS</a></li>
+      <li><a routerLink="/about" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}">SOBRE MÍ</a></li>
+    </ul>
     <mat-form-field>
       <mat-label>Buscar contenido</mat-label>
       <input matInput placeholder="" autocomplete="off">
