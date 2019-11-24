@@ -16,6 +16,7 @@ import {
 import { CoursesComponent } from './views/courses/courses.component';
 import { ArticlesComponent } from './views/articles/articles.component';
 import { AboutComponent } from './views/about/about.component';
+import { HomeService } from './shared/services/home.service';
 @NgModule({
   declarations: [HomeComponent, ArticleLastComponent, CoursesComponent, ArticlesComponent, AboutComponent],
   imports: [
@@ -27,6 +28,9 @@ import { AboutComponent } from './views/about/about.component';
     MatInputModule,
     MatCardModule,
     MatDividerModule
+  ],
+  providers: [
+    HomeService
   ]
 })
 export class HomeModule { }
