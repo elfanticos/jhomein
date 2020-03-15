@@ -1,159 +1,19 @@
-// .contenedor {
-// 	width: 90%;
-// 	max-width: 1000px;
-// 	margin: 20px auto;
-// 	display: grid;
-// 	grid-gap: 20px;
-// 	grid-template-columns: repeat(3, 1fr);
-// 	grid-template-rows: repeat(4, auto);
+.menu {
+    .router-link-active {
+        border-bottom: 3px solid red;
+        transition: .5s;
+    }
+    li {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 14px;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
 
-// 	grid-template-areas: "header    header    header"
-// 						 "contenido contenido sidebar"
-// 						 "widget    widget    widget"
-// 						 "footer    footer    footer";
-// }
-
-// .contenedor {
-//     app-navbar {
-//         .header {
-//             grid-area: header;
-//         }
-//     }
-//     app-sidebar {
-//         .sidebar {
-//             grid-area: sidebar;
-//             grid-column: 3 / 4;
-//             display: flex;
-//             align-items: center;
-//             justify-content: center;
-//             min-height: 100px;
-//             mat-card {
-//                 width: 100%;
-//                 height: 100%;
-//                 padding: 0;
-//                 mat-card-subtitle {
-//                     margin-top: 10px;
-//                     margin-left: 10px;
-//                 }
-//                 mat-card-content {
-//                     .list-sidebar {
-//                         overflow: auto;
-//                         height: 610px;
-//                         .card-sidebar {
-//                             height: 85px;
-//                             display: flex;
-//                             .image {
-//                                 background-color:pink;
-//                                 width: 60px;
-//                                 height: 80px;
-//                                 margin-left: 16px;
-//                                 border-radius: 10px;
-//                             }
-//                             .content {
-//                                 width: 200px;
-//                                 margin-left: 5px;
-//                                 display: -webkit-box;
-//                                 max-width: 100%;
-//                                 height: 71px;
-//                                 font-size: 14px;
-//                                 line-height: 1;
-//                                 -webkit-line-clamp: 5;
-//                                 -webkit-box-orient: vertical;
-//                                 overflow: hidden;
-//                                 text-overflow: ellipsis;
-//                                 text-align: justify;
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-    
-//         }
-//     }
-//     .contenido {
-//         grid-area: contenido;
-//     }
-    
-//     .widget {
-//         background: #55a8fd;
-//         color: #fff;
-//         height: 100px;
-//         text-align: center;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         grid-area: widget;
-//     }
-
-//     app-footer {
-//         .footer {
-//             padding: 20px;
-//             border-radius: 4px;
-//             background: #12203E;
-//             color: #fff;
-//             grid-area: footer;
-//         }
-//     }
-// }
-
-// .logo {
-//     color: #12203E;
-//     font-weight: bold;
-// }
-
-// .navbar {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-// }
-
-// .nav-menu {
-//     margin-left: 16px;
-//     margin-right: 16px;
-//     display: flex;
-//     justify-content: space-around;
-//     width: 300px;
-//     a {
-//         text-decoration: unset;
-//     }
-// }
-
-
-// @media screen and (max-width: 768px) {
-// 	.contenedor {
-// 		grid-template-areas: "header    header    header"
-// 						     "contenido contenido contenido"
-// 						     "sidebar   sidebar   sidebar"
-// 						     "widget    widget    widget"
-// 						     "footer    footer    footer";
-// 	}
-// }
-
-// // Estilos de componente
-// .article {
-//     overflow: auto;
-//     height: 600px;
-//     .article-content {
-//         display: flex;
-//         flex-direction: row;
-//         div {
-//             margin: 5px;
-//         }
-//         .article-detail {
-//             display: flex;
-//             flex-direction: column;
-//         }
-//         .article-image {
-//             background-color: pink;
-//             border-radius: 5px;
-//             width: 380px;
-//             height: 150px;
-//         }
-//     }
-// }
-
-// .divider {
-//     border: 0.5px solid gray;
-//     width: 100%;
-//     margin: 0 30px;
-// }
+mat-sidenav-content {
+    overflow: initial;
+}

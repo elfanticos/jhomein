@@ -4,6 +4,9 @@
 	margin: 0;
 	padding: 0;
 }
+ul {
+	list-style: none;
+}
 
 body {
 	background: #E9ECF4;
@@ -11,43 +14,43 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.container {
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(4, auto);
+// .container {
+// 	width: 90%;
+// 	max-width: 1000px;
+// 	margin: 20px auto;
+// 	display: grid;
+// 	grid-gap: 20px;
+// 	grid-template-columns: repeat(3, 1fr);
+// 	grid-template-rows: repeat(4, auto);
 
-	grid-template-areas: "header    header    header"
-						 "contenido contenido sidebar"
-						 "contenido contenido sidebar"
-						 "footer    footer    footer";
-	app-navbar {
-		grid-area: header;
-	}
-	.content {
-		grid-area: contenido;
+// 	grid-template-areas: "header    header    header"
+// 						 "contenido contenido sidebar"
+// 						 "contenido contenido sidebar"
+// 						 "footer    footer    footer";
+// 	app-navbar {
+// 		grid-area: header;
+// 	}
+// 	.content {
+// 		grid-area: contenido;
 
-	}
-	app-sidebar {
-		grid-area: sidebar;
-	}
-	app-footer {
-		grid-area: footer;
-	}
-}
+// 	}
+// 	app-sidebar {
+// 		grid-area: sidebar;
+// 	}
+// 	app-footer {
+// 		grid-area: footer;
+// 	}
+// }
 
-@media screen and (max-width: 768px) {
-	.container {
-		grid-template-areas: "header    header    header"
-						     "contenido contenido contenido"
-						     "sidebar   sidebar   sidebar"
-						     "widget    widget    widget"
-						     "footer    footer    footer";
-	}
-}
+// @media screen and (max-width: 768px) {
+// 	.container {
+// 		grid-template-areas: "header    header    header"
+// 						     "contenido contenido contenido"
+// 						     "sidebar   sidebar   sidebar"
+// 						     "widget    widget    widget"
+// 						     "footer    footer    footer";
+// 	}
+// }
 
 
 .spacer {

@@ -1,0 +1,17 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .body-left  {
+        // background-color: pink;
+        width: 20%;
+    }
+    .body-center {
+        // background-color: lightgreen;
+        width: 60%;
+    }
+    .body-right {
+        // background-color: lightsalmon;
+        width: 20%; 
+    }
+}

@@ -1,0 +1,32 @@
+<div class="search-content">
+    <div class="search-input">
+        <mat-form-field appearance="outline">
+            <mat-label>Buscar</mat-label>
+            <input matInput placeholder="">
+            <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="search-filter">
+        <div class="search-filter-title">
+            <h3>Artículos</h3>
+        </div>
+        <mat-card class="card-filter" *ngFor="let item of [1,2,3,4,5,6,7,8]">
+            <mat-card-content>
+                <div class="flex">
+                    <div class="img-filter">
+                        <figure>
+                            <img src="assets/images/img-dbz.jpg" alt="Monton de post-its"/>
+                        </figure>
+                    </div>
+                    <div class="detail-filter">
+                        <h4 class="detail-filter-title">Título</h4>
+                        <div class="detail-filter-description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, deserunt! Animi voluptatem expedita ex voluptates dolorum, ut earum vel officiis, odio, hic eos nobis assumenda modi cum ab quas fugit.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

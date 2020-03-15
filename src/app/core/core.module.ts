@@ -7,7 +7,7 @@ import {
   MatFormFieldModule,
   MatInputModule,
   MatCardModule,
-  MatDividerModule
+  MatDividerModule,
 } from '@angular/material';
 
 import { SidebarComponent } from './components/sidebar/sidebar.component';
@@ -26,7 +26,7 @@ import { throwIfAlreadyLoaded } from './guards/modele-import-guard';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
   ],
   exports: [SidebarComponent, NavbarComponent, FooterComponent],
   providers: [

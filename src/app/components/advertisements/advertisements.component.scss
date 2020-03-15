@@ -1,0 +1,13 @@
+.advertisements-content {
+    height: 100%;
+    padding: 10px;
+    .advertising-card, .comments-card {
+        margin-bottom: 16px;
+    }
+    .advertising-card {
+        height: 250px;
+    }
+    .comments-card {
+        height: 450px;
+    }
+}
