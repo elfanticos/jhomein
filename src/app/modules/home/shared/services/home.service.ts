@@ -3,7 +3,7 @@ import { ApiService } from 'src/app/core/services/api.service';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
-Injectable()
+@Injectable()
 export class HomeService {
     constructor(private http: ApiService) {
     }
