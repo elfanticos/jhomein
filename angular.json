@@ -22,10 +22,17 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-            "assets": ["src/favicon.ico","src/assets"],
-            "styles": ["src/styles.scss"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
             "stylePreprocessorOptions": {
-              "includePaths": ["src/styles"]
+              "includePaths": [
+                "src/styles"
+              ]
             },
             "scripts": [],
             "es5BrowserSupport": true
@@ -134,5 +141,8 @@
       }
     }
   },
-  "defaultProject": "jhomein"
+  "defaultProject": "jhomein",
+  "cli": {
+    "analytics": "f7857de8-da16-4956-b2df-881318ce2caa"
+  }
 }
