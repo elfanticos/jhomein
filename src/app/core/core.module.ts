@@ -10,15 +10,11 @@ import {
   MatDividerModule,
 } from '@angular/material';
 
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { AddHeaderInterceptor } from './interceptors/add-header.interceptor';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CacheInterceptor } from './interceptors/cache.interceptor';
 import { throwIfAlreadyLoaded } from './guards/modele-import-guard';
 @NgModule({
-  declarations: [SidebarComponent, NavbarComponent, FooterComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -28,7 +24,6 @@ import { throwIfAlreadyLoaded } from './guards/modele-import-guard';
     MatCardModule,
     MatDividerModule,
   ],
-  exports: [SidebarComponent, NavbarComponent, FooterComponent],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: AddHeaderInterceptor, multi: true},
     { provide: HTTP_INTERCEPTORS, useClass: CacheInterceptor, multi: true }
