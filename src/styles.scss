@@ -1,4 +1,5 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./styles/fonts";
 
 * {
 	margin: 0;
@@ -7,11 +8,11 @@
 ul {
 	list-style: none;
 }
-
 body {
-	background: #E9ECF4;
-	color: #000;
-	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+	width: 1600px;
+	height: 1009px;
+	font-family: 'Raleway';
 }
 
 // **************** FLEX ****************
@@ -58,11 +59,4 @@ body {
 // **************** MARGIN ****************
 .m-auto {
 	margin: auto !important;
-}
-
-// **************** CONSTRUCCIÓN ****************
-.construction {
-	display: flex;
-    justify-content: center;
-    margin-top: 80px;
 }

@@ -6,13 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'jhomein';
-  x = null;
-  constructor() {
-    this.x = this.getPrueba();
-  }
-
-  getPrueba(): string {
-    return 'hola mundo';
-  }
 }

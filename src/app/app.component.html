@@ -1,21 +1,16 @@
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <h1>LOGO</h1>
-    <span class="spacer"></span>
-    <nav>
-      <ul class="flex menu">
-        <li><a [routerLink]="['/']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact: true}" ><span>INICIO</span></a></li>
-        <li><a [routerLink]="['/courses']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact: true}" ><span>CURSOS</span></a></li>
-        <li><a [routerLink]="['/articles']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact: true}" ><span>ARTÍCULOS</span></a></li>
-        <li><a [routerLink]="['/about']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact: true}" ><span>SOBRE MÍ</span></a></li>
-      </ul>
-    </nav>
-  </mat-toolbar-row>
-</mat-toolbar>
-<mat-sidenav-container>
-  <mat-sidenav>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<div class="main">
+  <div class="home">
+      <div class="home-name">
+        <p>home-name</p>
+      </div>
+      <div class="home-img">
+        <ul class="menu-nav">
+          <li>Sobre Mi</li>
+          <li>Trabajos</li>
+          <li>Portafolio</li>
+          <li>Portafolio</li>
+          <li>contact me</li>
+        </ul>
+      </div>
+  </div>
+</div>

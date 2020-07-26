@@ -1,19 +1,27 @@
-.menu {
-    .router-link-active {
-        border-bottom: 3px solid red;
-        transition: .5s;
-    }
-    li {
-        padding-left: 16px;
-        padding-right: 16px;
-        font-size: 14px;
-        a {
-            text-decoration: none;
-            color: #ffffff;
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .home {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        .home-name, .home-img {
+            width: 50%;
+            height: 100%;
+        }
+        .home-name {
+            background-color: #ffffff;
+        }
+        .home-img {
+            background-color: #F62939;
+            .menu-nav {
+                display: flex;
+                justify-content: flex-end;
+                li {
+                    margin: 10px 24px;
+                }
+            }
         }
     }
-}
-
-mat-sidenav-content {
-    overflow: initial;
 }

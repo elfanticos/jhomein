@@ -11,3 +11,7 @@ ng g c modules/home/views/article-last --module=home
 ng g c modules/home/views/courses --module=home
 ng g c modules/home/views/articles --module=home
 ng g c modules/home/views/about --module=home
+
+
+
+*** Version 3 ***

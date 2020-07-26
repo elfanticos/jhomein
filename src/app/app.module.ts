@@ -9,12 +9,6 @@ import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MatToolbarModule, MatSidenavModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule } from '@angular/material';
 import { HomeComponent } from './views/home/home.component';
-import { AdvertisementsComponent } from './components/advertisements/advertisements.component';
-import { NewsComponent } from './components/news/news.component';
-import { SearchComponent } from './components/search/search.component';
-import { AboutComponent } from './views/about/about.component';
-import { ArticlesComponent } from './views/articles/articles.component';
-import { CoursesComponent } from './views/courses/courses.component';
 
 
 @NgModule({
@@ -36,13 +30,7 @@ import { CoursesComponent } from './views/courses/courses.component';
   ],
   declarations: [
     AppComponent,
-    AdvertisementsComponent,
-    NewsComponent,
-    SearchComponent,
     HomeComponent,
-    AboutComponent,
-    ArticlesComponent,
-    CoursesComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
