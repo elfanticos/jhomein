@@ -1,16 +1,27 @@
 <div class="main">
-  <div class="home">
-      <div class="home-name">
-        <p>home-name</p>
+  <div class="profile">
+      <div class="profile-name" id="profile">
+        <app-profile></app-profile>
       </div>
-      <div class="home-img">
+      <div class="profile-img">
         <ul class="menu-nav">
-          <li>Sobre Mi</li>
-          <li>Trabajos</li>
-          <li>Portafolio</li>
-          <li>Portafolio</li>
-          <li>contact me</li>
+          <li><a href="#profile">Sobre Mi</a></li>
+          <li><a href="#works">Trabajos</a></li>
+          <li><a href="#briefcase">Portafolio</a></li>
+          <li><a href="#contact-me">contact me</a></li>
         </ul>
+        <div class="img">
+          <img src="assets/images/mi-foto.png" alt="mi foto">
+        </div>
       </div>
+  </div>
+  <div class="works" id="works">
+    <app-works></app-works>
+  </div>
+  <div class="briefcase" id="briefcase">
+    <app-briefcase></app-briefcase>
+  </div>
+  <div class="contact-me" id="contact-me">
+    <app-contact-me></app-contact-me>
   </div>
 </div>

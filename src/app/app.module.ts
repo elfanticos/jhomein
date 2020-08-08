@@ -9,6 +9,10 @@ import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MatToolbarModule, MatSidenavModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule } from '@angular/material';
 import { HomeComponent } from './views/home/home.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { WorksComponent } from './components/works/works.component';
+import { BriefcaseComponent } from './components/briefcase/briefcase.component';
 
 
 @NgModule({
@@ -31,6 +35,10 @@ import { HomeComponent } from './views/home/home.component';
   declarations: [
     AppComponent,
     HomeComponent,
+    ProfileComponent,
+    ContactMeComponent,
+    WorksComponent,
+    BriefcaseComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
