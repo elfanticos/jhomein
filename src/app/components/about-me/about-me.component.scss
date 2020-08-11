@@ -1,0 +1,70 @@
+.about-me__container {
+    background-color: #FFF8F6;
+    border-radius: 0px 0px 280px 0px;
+    -moz-border-radius: 0px 0px 280px 0px;
+    -webkit-border-radius: 0px 0px 280px 0px;
+    border: 0px solid #000000;
+    display: flex;
+    .about-me__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        h4 {
+            color: #482E9B;
+            font-size: 44px;
+            width: 220px;
+            margin-bottom: 50px;
+        }
+        .btn-download-cv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFE9EB;
+            color: #F22D3C;
+            width: 155px;
+            height: 60px;
+            border-radius: 0px 0px 40px 0px;
+            -moz-border-radius: 0px 0px 40px 0px;
+            -webkit-border-radius: 0px 0px 40px 0px;
+            border: 0px solid #000000;
+        }
+    }
+    .about-me__description {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    .about-me__bubbles {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        .bubble-violet {
+            width: 100px;
+            height: 100px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            background: #503E8A;
+            position: relative;
+            left: -39px;
+            top: -23px;
+        }
+        .bubble-orange {
+            width: 50px;
+            height: 50px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            background: #FEC369;
+            position: relative;
+            left: -11px;
+            top: -38px;
+        }
+    }
+}

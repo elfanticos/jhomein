@@ -13,6 +13,8 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { WorksComponent } from './components/works/works.component';
 import { BriefcaseComponent } from './components/briefcase/briefcase.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -39,6 +41,8 @@ import { BriefcaseComponent } from './components/briefcase/briefcase.component';
     ContactMeComponent,
     WorksComponent,
     BriefcaseComponent,
+    AboutMeComponent,
+    FooterComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

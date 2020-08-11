@@ -1,0 +1,58 @@
+.contact-me__container {
+    height: 100%;
+    border-radius: 0px 0px 380px 0px;
+    -moz-border-radius: 0px 0px 380px 0px;
+    -webkit-border-radius: 0px 0px 380px 0px;
+    border: 0px solid #000000;
+    background-color: #5740D2;
+    color: #FFFFFF;
+    display: flex;
+    .contact-me__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        .contact-me__title {
+            h4 {
+                font-size: 40px;
+                margin-bottom: 16px;
+            }
+            .contact-me__sub-title {
+                text-align: center;
+            }
+        }
+        .contact-me__button-hire-me {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #8771FF;
+            color: #FFFFFF;
+            width: 135px;
+            height: 45px;
+            border-radius: 40px 0px 40px 0px;
+            -moz-border-radius: 40px 0px 40px 0px;
+            -webkit-border-radius: 40px 0px 40px 0px;
+            border: 0px solid #000000;
+        }
+    }
+    .bubble-violet {
+        width: 320px;
+        height: 320px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #DEDEDE;
+        position: relative;
+        opacity: 0.1;
+    }
+    .bubble-violet-1 {
+        top: 50px;
+        right: 10px;
+    }
+
+    .bubble-violet-2 {
+        left: 240px;
+    }
+}
