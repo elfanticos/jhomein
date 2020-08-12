@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { MatToolbarModule, MatSidenavModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule, MatButtonModule } from '@angular/material';
+
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
-import { HttpClientModule } from '@angular/common/http';
-import { MatToolbarModule, MatSidenavModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule } from '@angular/material';
 import { HomeComponent } from './views/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
@@ -15,6 +17,7 @@ import { WorksComponent } from './components/works/works.component';
 import { BriefcaseComponent } from './components/briefcase/briefcase.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CarouselHolderComponent } from './components/carousel-holder/carousel-holder.component';
 
 
 @NgModule({
@@ -32,7 +35,10 @@ import { FooterComponent } from './components/footer/footer.component';
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    // Dependences
+    CarouselModule
   ],
   declarations: [
     AppComponent,
@@ -43,6 +49,7 @@ import { FooterComponent } from './components/footer/footer.component';
     BriefcaseComponent,
     AboutMeComponent,
     FooterComponent,
+    CarouselHolderComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

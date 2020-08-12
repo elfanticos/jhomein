@@ -12,14 +12,23 @@ export class AboutMeComponent implements OnInit {
 
   constructor(
     private _iconRegistry: MatIconRegistry,
-        private _sanitizer: DomSanitizer,
+    private _sanitizer: DomSanitizer,
   ) { }
 
   ngOnInit(): void {
     this.setIconSvg();
   }
 
-  setIconSvg() {
+  setIconSvg(): void {
     this._iconRegistry.addSvgIcon('arrow_drop_down_circle', this._sanitizer.bypassSecurityTrustResourceUrl(SharedConstants.ICONS.arrow_drop_down_circle));
+  }
+
+  downloadCV(): void {
+    const a = document.createElement('a');
+    const pathCV = 'assets/documents/HOJA_DE_VIDA_JHONATAN_MEZA.pdf';
+    a.target = '_blank';
+    a.href = pathCV;
+    a.download = pathCV.split('/').pop();
+    a.click();
   }
 }
