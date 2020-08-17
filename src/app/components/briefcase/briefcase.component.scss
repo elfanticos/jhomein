@@ -6,10 +6,21 @@
     height: 100%;
     color: #482E9B;
     .briefcase__title {
-        font-size: 53px;
-
+        h3 {
+            font-size: 53px;
+        }
     }
     .briefcase__skills {
-        
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        .briefcase__skills-card {
+            margin: 32px;
+            width: 550px;
+            .briefcase__skills-card-title {
+                font-weight: bold;
+            }
+        }
     }
 }

@@ -4,7 +4,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
-import { MatToolbarModule, MatSidenavModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule, MatButtonModule } from '@angular/material';
+import { MatToolbarModule,
+  MatSidenavModule,
+  MatCardModule,
+  MatInputModule,
+  MatFormFieldModule,
+  MatIconModule,
+  MatButtonModule,
+  MatTabsModule,
+} from '@angular/material';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
@@ -18,6 +26,7 @@ import { BriefcaseComponent } from './components/briefcase/briefcase.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselHolderComponent } from './components/carousel-holder/carousel-holder.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -37,8 +46,10 @@ import { CarouselHolderComponent } from './components/carousel-holder/carousel-h
     MatInputModule,
     MatIconModule,
     MatButtonModule,
+    MatTabsModule,
     // Dependences
-    CarouselModule
+    CarouselModule,
+    NgbModule
   ],
   declarations: [
     AppComponent,
