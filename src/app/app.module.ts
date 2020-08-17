@@ -27,6 +27,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselHolderComponent } from './components/carousel-holder/carousel-holder.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SkillListComponent } from './components/skill-list/skill-list.component';
+import { SkillComponent } from './components/skill/skill.component';
 
 
 @NgModule({
@@ -61,6 +63,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutMeComponent,
     FooterComponent,
     CarouselHolderComponent,
+    SkillListComponent,
+    SkillComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

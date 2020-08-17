@@ -1,0 +1,72 @@
+{
+    "frontend": [
+        {
+            "title": "ANGULAR",
+            "percentage": 80
+        },
+        {
+            "title": "JAVASCRIPT",
+            "percentage": 80
+        },
+        {
+            "title": "PWA",
+            "percentage": 80
+        },
+        {
+            "title": "JQUERY",
+            "percentage": 80
+        },
+        {
+            "title": "HTML",
+            "percentage": 80
+        },
+        {
+            "title": "CSS",
+            "percentage": 80
+        },
+        {
+            "title": "SASS",
+            "percentage": 80
+        }
+    ],
+    "backend": [
+        {
+            "title": "NODEJS",
+            "percentage": 80
+        },
+        {
+            "title": "POSTGRESQL",
+            "percentage": 80
+        },
+        {
+            "title": "MYSQL",
+            "percentage": 80
+        },
+        {
+            "title": "PHP(Codeigniter)",
+            "percentage": 80
+        },
+        {
+            "title": "MongoDB",
+            "percentage": 80
+        },
+        {
+            "title": "Net Core",
+            "percentage": 80
+        },
+        {
+            "title": "SQL SERVER",
+            "percentage": 80
+        },
+        {
+            "title": "ORACLE",
+            "percentage": 80
+        }
+    ],
+    "mobile": [
+        {
+            "title": "FLUTTER",
+            "percentage": 80
+        }
+    ]
+}
