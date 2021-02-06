@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-briefcase',
@@ -9,13 +8,10 @@ import { DataService } from 'src/app/services/data.service';
 export class BriefcaseComponent implements OnInit {
   tecniques: any = {};
   personal: any[] = [];
-  constructor(private _dataServide: DataService) {
+  constructor() {
   }
 
   ngOnInit(): void {
-    this._dataServide.getDataTecniques()
-      .subscribe(data =>this.tecniques = data || {});
-    this._dataServide.getDataPersonal().subscribe(data => this.personal = data ||[])
   }
 
 }
