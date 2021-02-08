@@ -7,11 +7,17 @@ import { MaterialModule } from '../material/material.module';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
-
+import { ProjectsComponent } from './components/proyects/projects.component';
 
 
 @NgModule({
-  declarations: [MainComponent, PresentationComponent, AboutComponent, ServicesComponent, ContactMeComponent],
+  declarations: [MainComponent,
+    PresentationComponent,
+    AboutComponent,
+    ServicesComponent,
+    ContactMeComponent,
+    ProjectsComponent
+  ],
   imports: [
     CommonModule,
     SharedModule,
