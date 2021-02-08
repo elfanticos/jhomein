@@ -21,9 +21,15 @@
       "dom"
     ],
     "paths": {
-      "@env": ["environments/environment"],
+      "@env/*": ["environments/environment"],
       "@shared/*": ["app/shared/*"],
-      "@core/*": ["app/core/*"]
+      "@core/*": ["app/core/*"],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
     }
   }
 }
