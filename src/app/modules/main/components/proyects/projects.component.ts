@@ -12,4 +12,8 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  redirectProject(path: string): void {
+    window.open(path, "_blank");
+  }
+
 }

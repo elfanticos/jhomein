@@ -1,0 +1,32 @@
+.projects {
+    // height: 600px;
+    background-color: #ffffff;
+    padding: 2% 10% 32px 10%;
+}
+
+.projects-text p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1d1c1c;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.projects-text p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.projects-text p:nth-child(3) {
+    font-family: calibri;
+    color: #7e7d7d;
+    /* font-size: ; */
+}
+
+.projects-text {
+    width: 500px;
+    margin: 50px 0px;
+}

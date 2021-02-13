@@ -1,30 +1,37 @@
 <!--projects-container---------------------------->
-<div class="projects">
+<div class="projects" id="projects">
     <!--text-->
     <div class="projects-text ">
         <p>Proyectos</p>
     </div>
     <div class="box-container">
         <!--1------------->
-        <div class="box-1">
+        <div class="box-project">
             <span>1</span>
-            <p class="heading">Dise&ntilde;o WEB</p>
-            <p class="details">¡Proximamente!</p>
-            <button>Leer m&aacute;s</button>
+            <p class="heading">Smiledu</p>
+            <p class="details">Smiledu conecta a los padres con el aprendizaje de sus hijos y organiza todos los procesos de tu colegio, la hace crecer y la acompaña en el proceso.</p>
+            <button (click)="redirectProject('https://smiledu.com/')">Leer m&aacute;s</button>
         </div>
         <!--2------------->
-        <div class="box-2">
+        <div class="box-project">
             <span>2</span>
-            <p class="heading">Desarrollo WEB</p>
-            <p class="details">Se implementa de principio a fin, para frontend, backend y base de datos...</p>
+            <p class="heading">GOMEDIC</p>
+            <p class="details">Gestión y seguimiento de visitadores médicos</p>
             <button>Leer m&aacute;s</button>
         </div>
         <!--3------------->
-        <div class="box-3">
+        <div class="box-project">
             <span>3</span>
-            <p class="heading">Security SEO</p>
-            <p class="details">¡Proximamente!</p>
-            <button>Leer m&aacute;s</button>
+            <p class="heading">Sigmalab</p>
+            <p class="details">Brindamos soluciones de diagnóstico clínico a tu medida. Contamos con productos y soluciones integrales, desde el segmento pequeño manual hasta los laboratorios automatizados de alta complejidad.</p>
+            <button (click)="redirectProject('http://sigmalabperu.com/')">Leer m&aacute;s</button>
+        </div>
+         <!--4------------->
+         <div class="box-project">
+            <span>4</span>
+            <p class="heading">Corcovado Azul</p>
+            <p class="details">Costa Rica es reconocida a nivel mundial por ser líder en protección de bosques. Sin embargo, nuestro país tiene tareas pendientes por conservar su amplio y bendecido mar.</p>
+            <button (click)="redirectProject('http://corcovadoazul.com/')">Leer m&aacute;s</button>
         </div>
     </div>
 </div>

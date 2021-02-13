@@ -1,0 +1,27 @@
+<form [formGroup]="form">
+  <h2 mat-dialog-title>Contactame</h2>
+  <mat-dialog-content>
+
+    <mat-form-field>
+      <mat-label>Nombre</mat-label>
+      <input matInput formControlName="fullName" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Correo</mat-label>
+      <input matInput formControlName="email" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Descripci&oacute;n</mat-label>
+      <textarea matInput formControlName="description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Teléfono/celular</mat-label>
+      <input matInput formControlName="phone" />
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancelar</button>
+    <button mat-stroked-button color="primary" [mat-dialog-close]="true">Enviar</button>
+  </mat-dialog-actions>
+</form>

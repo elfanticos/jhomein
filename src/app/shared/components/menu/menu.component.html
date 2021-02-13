@@ -1,15 +1,16 @@
 <!--navigation------------------------->
-<nav>
+<nav [class.active]="active">
     <!--logo-->
     <a class="logo" href="#">LOGO</a>
     <!--menu-->
     <ul>
-        <li><a class="active" href="#">Inicio</a></li>
-        <li><a href="#">Sobre mí</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contactame</a></li>
+        <li><a class="active" href="#presentation">Inicio</a></li>
+        <li><a href="#about-me">Sobre mí</a></li>
+        <li><a href="#services">servicios</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact-me">Contactame</a></li>
     </ul>
     <!--bars--------------->
-    <div class="toggle"></div>
+    <div class="toggle" (click)="toggleClass($event, 'active')" [class.active]="active"></div>
 
 </nav>

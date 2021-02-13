@@ -1,0 +1,47 @@
+.services {
+    height: 600px;
+    background-color: #ffffff;
+    padding: 2% 10% 0px 10%;
+}
+
+.services-text p:nth-child(1) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #1d1c1c;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.services-text p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    color: #3e3d3d;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.services-text p:nth-child(3) {
+    font-family: calibri;
+    color: #7e7d7d;
+    /* font-size: ; */
+}
+
+.services-text {
+    width: 500px;
+    margin: 50px 0px;
+}
+
+@media (max-width: 1000px) {
+    .services {
+        padding: 2% 5% 0px 5%;
+    }
+    .services {
+        height: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .services-text {
+        width: 100%;
+    }
+}
