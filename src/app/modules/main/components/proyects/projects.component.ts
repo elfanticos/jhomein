@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedConstants } from '@app/shared/shared.constant';
 
 @Component({
   selector: 'app-projects',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-
+  PROJECTS: any[] = SharedConstants.PROJECTS;
   constructor() { }
 
   ngOnInit(): void {

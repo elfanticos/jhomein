@@ -197,11 +197,18 @@ button:active {
     line-height: 0px;
 }
 
+.box-project p:nth-child(3) {
+    min-height: 96px;
+    max-height: 96px;
+    overflow: hidden;
+}
+
 .box-project p:nth-child(2) {
     color: #000000;
     font-family: calibri;
     font-size: 23px;
     line-height: 0px;
+    // min-height: 96;
 }
 
 .box-1 p:nth-child(3),
